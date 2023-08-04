@@ -10,7 +10,7 @@ export class Mytab extends Component {
   render() {
     return (
       <Tab.Navigator>
-        <Tab.Screen name='Home' component={Home} />
+        <Tab.Screen name='Home'  component={Home} />
         <Tab.Screen name='Read' component={Read} />
       </Tab.Navigator>
     )
